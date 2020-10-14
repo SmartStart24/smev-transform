@@ -1,5 +1,5 @@
 {
-    "name": "danbka/smev-transform",
+    "name": "smartstart24/smev-transform",
     "description": "Реализация алгоритма трансформации urn://smev-gov-ru/xmldsig/transform для СМЭВ3",
     "keywords": ["smev", "смэв"],
     "license": "MIT",
