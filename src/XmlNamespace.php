@@ -12,9 +12,9 @@ use InvalidArgumentException;
  */
 class XmlNamespace
 {
-    private string $prefix;
+    private $prefix;
     
-    private ?string $uri;
+    private $uri;
     
     public function __construct(string $uri, ?string $prefix = null)
     {

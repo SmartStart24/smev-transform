@@ -10,13 +10,13 @@ namespace Danbka\Smev;
  */
 class Attribute
 {
-    private string $name;
+    private $name;
     
-    private string $value;
+    private $value;
     
-    private ?string $uri;
+    private $uri;
     
-    private ?string $prefix;
+    private $prefix;
     
     public function __construct(string $name, string $value, ?string $uri = null, ?string $prefix = null)
     {
